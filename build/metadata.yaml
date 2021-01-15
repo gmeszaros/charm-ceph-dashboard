@@ -1,0 +1,17 @@
+# Copyright 2021 Ubuntu
+# See LICENSE file for licensing details.
+name: charm-ceph-dashboard
+description: |
+  A subordinate charm that installs and configures ceph dashboard for the
+  cloud
+summary: |
+  ceph dashboard subordinate to be deployed and related to the ceph-mon charm
+series: [focal]
+tags:
+- openstack
+- storage
+- file-servers
+- misc
+provides:
+  dashboard:
+    interface: "ceph-dashboard"

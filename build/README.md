@@ -1,0 +1,27 @@
+# charm-ceph-dashboard
+
+## Description
+
+TODO: Describe your charm in a few paragraphs of Markdown
+This is a charm subordinate, aimed to be used with the ceph-mon charm,
+to provide upstream ceph dashboard features.
+
+## Usage
+
+TODO: Provide high-level usage, such as required config or relations
+
+
+## Developing
+
+Create and activate a virtualenv with the development requirements:
+
+    virtualenv -p python3 venv
+    source venv/bin/activate
+    pip install -r requirements-dev.txt
+
+## Testing
+
+The Python operator framework includes a very nice harness for testing
+operator behaviour without full deployment. Just `run_tests`:
+
+    ./run_tests
